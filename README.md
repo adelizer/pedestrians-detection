@@ -6,7 +6,12 @@ A number of successful approaches include YOLO with different versions and Mask 
 the simple approach of extending a classification model (VGG16) and train retrain the last layers 
 using pedestrians datasets.  
 
-![Alt text](images/segmentation_sample.png?raw=true "Sample segmentation")
+
+### References
+
+* [FCN paper](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
+* [Datasets](http://www.gavrila.net/)
+* [Medium post](https://medium.com/nanonets/how-to-do-image-segmentation-using-deep-learning-c673cc5862ef)
 
 
 ### TODO:
@@ -15,3 +20,4 @@ using pedestrians datasets.
 * Extract the 3D location of the detected pedestrians.
 * Compare RNNs prediction to motion models.
 * Use Carla's perfect information about the pedestrians for validation
+* How to include uncertainty of each prediction given the sensors inherent properties ? (Bayesian networks ?)
