@@ -6,11 +6,18 @@ A number of successful approaches include YOLO with different versions and Mask 
 the simple approach of extending a classification model (VGG16) and train retrain the last layers 
 using pedestrians datasets.  
 
+## Motion Prediction:
+Given a sequence of observations of multiple pedestrians, how can we predict their motion in the future?
+* Consider motion dynamics and physical constraints
+* Context cues, such as head pose, their acknowledgement of the vehicle, etc.
+* Higher level semantics, such as their relation towards
+
 
 ### References
 
 * [FCN paper](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
 * [Datasets](http://www.gavrila.net/)
+* [MIT Self-driving car lecture (Waymo)](https://www.youtube.com/watch?v=Q0nGo2-y0xY&index=2&list=PLrAXtmErZgOeY0lkVCIVafdGFOTi45amq)
 * [Medium post](https://medium.com/nanonets/how-to-do-image-segmentation-using-deep-learning-c673cc5862ef)
 
 
