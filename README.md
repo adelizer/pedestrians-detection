@@ -4,7 +4,10 @@ This project explores the usage of FCNs to detect pedestrians for autonomous dri
 
 A number of successful approaches include YOLO with different versions and Mask R-CNNs. However, this project considers 
 the simple approach of extending a classification model (VGG16) and train retrain the last layers 
-using pedestrians datasets.  
+using pedestrians datasets.
+
+
+![Alt text](images/segmentation_sample.png?raw=true "Example of semantic segmentation performed on an image in the Carla environment")
 
 ## Motion Prediction:
 Given a sequence of observations of multiple pedestrians, how can we predict their motion in the future?
