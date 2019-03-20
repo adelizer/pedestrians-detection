@@ -9,6 +9,11 @@ using pedestrians datasets.
 
 ![Alt text](images/segmentation_sample.png?raw=true "Example of semantic segmentation performed on an image in the Carla environment")
 
+Integrating the segmentation and tracking into a simulator offers a convenient way to test multiple scenarios
+since the actors can be controlled to produce any arbitrary motion model at different location in the scene.
+E.g. simulate humans that rush into crossing the street or stop abruptly.
+
+
 ## Motion Prediction:
 Given a sequence of observations of multiple pedestrians, how can we predict their motion in the future?
 * Consider motion dynamics and physical constraints
