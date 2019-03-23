@@ -31,6 +31,7 @@ Given a sequence of observations of multiple pedestrians, how can we predict the
 
 ### TODO:
 
+* Investigate ConvLSTMs on the Kitti dataset
 * Use region proposals
 * Extract the 3D location of the detected pedestrians.
 * Compare RNNs prediction to motion models.
