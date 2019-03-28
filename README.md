@@ -9,6 +9,8 @@ using pedestrians datasets.
 
 ![Alt text](images/segmentation_sample.png?raw=true "Example of semantic segmentation performed on an image in the Carla environment")
 
+Semantic segmentation is regarded as one of the main challenges in the computer vision and machine learning communities. It can be simply described as the task of labeling each pixel in an image according to the class of objects that it represents, thus the whole image can be recognized. There are many application that require such dense prediction such as, medical diagnosis, autonomous driving, surveillance systems, and many more. Semantic segmentation is one of the topics that witnessed transformative breakthroughs by the recent advances in deep learning that is shown to yield superior performance in multiple computer vision tasks. Therefore, this extended abstract focuses on three key contributions towards semantic segmentation using convolutional neural networks, and discusses some of their commonalities and differences.
+
 Integrating the segmentation and tracking into a simulator offers a convenient way to test multiple scenarios
 since the actors can be controlled to produce any arbitrary motion model at different location in the scene.
 E.g. simulate humans that rush into crossing the street or stop abruptly.
