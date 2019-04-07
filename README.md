@@ -16,6 +16,10 @@ since the actors can be controlled to produce any arbitrary motion model at diff
 E.g. simulate humans that rush into crossing the street or stop abruptly.
 
 
+
+An [extended abstract](../docs/review.pdf) is written for semantic segmentation.
+
+
 ## Motion Prediction:
 Given a sequence of observations of multiple pedestrians, how can we predict their motion in the future?
 * Consider motion dynamics and physical constraints
